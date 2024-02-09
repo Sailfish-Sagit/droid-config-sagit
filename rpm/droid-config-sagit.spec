@@ -25,6 +25,8 @@ Obsoletes: ofono-configs-binder
 # Other screen sizes and ratios will require more trial-and-error.
 %define pixel_ratio 1.0
 
+Requires: libgbinder-tools
+
 %include droid-configs-device/droid-configs.inc
 %include patterns/patterns-sailfish-device-adaptation-sagit.inc
 %include patterns/patterns-sailfish-device-configuration-sagit.inc
