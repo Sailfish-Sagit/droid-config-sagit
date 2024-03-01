@@ -1,0 +1,13 @@
+[Unit]
+Description=Droid mount for /odm/lib64/libaudioroute.so
+Before=local-fs.target
+
+[Mount]
+What=/apex/com.android.vndk.v33/lib64/libaudioroute.so
+Where=/odm/lib64/libaudioroute.so
+Type=none
+Options=ro,bind
+TimeoutSec=5
+
+[Install]
+WantedBy=local-fs.target
