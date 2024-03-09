@@ -5,7 +5,6 @@
 Summary: Jolla HW Adaptation sagit
 Requires: droid-hal-sagit
 Requires: droid-hal-sagit-img-boot
-Requires: droid-hal-sagit-kernel-modules
 Requires: droid-config-sagit-sailfish
 Requires: droid-config-sagit-pulseaudio-settings
 Requires: droid-config-sagit-policy-settings
